@@ -6,3 +6,5 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 # chosen device
 x_train_tensor = torch.as_tensor(x_train).float().to(device)
 y_train_tensor = torch.as_tensor(y_train).float().to(device)
+print(x_train_tensor.shape)
+print(y_train_tensor.shape)

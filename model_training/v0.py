@@ -1,7 +1,7 @@
 
 # Defines number of epochs
 n_epochs = 1000
-
+print(x_train_tensor.shape)
 for epoch in range(n_epochs):
     # Sets model to TRAIN mode
     model.train()
