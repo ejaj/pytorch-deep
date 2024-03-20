@@ -245,3 +245,6 @@ rps-test-set.zip
 rps-test-set
 rps
 rps.zip
+rps_preproc.pth
+rps_val_preproc.pth
+pretrained
